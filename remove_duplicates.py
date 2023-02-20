@@ -8,3 +8,4 @@ df_unique = df.drop_duplicates()
 
 # Write the unique rows to a new CSV file
 df_unique.to_csv('csv_files/unique_dataset.csv', index=False)
+print("size of unique dataset is : ",len(df_unique))
